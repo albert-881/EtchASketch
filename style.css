@@ -1,0 +1,20 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+}
+.square {
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            box-sizing: border-box;
+}
